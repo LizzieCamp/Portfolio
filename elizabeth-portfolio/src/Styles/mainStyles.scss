@@ -1,0 +1,90 @@
+.padding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #ebedef;
+  font-family: monospace;
+}
+
+// * {
+//   font-size: 44px;
+//   letter-spacing: 0.15em;
+//   font-family: monospace;
+//   color: grey;
+// }
+
+h1 {
+  font-size: 24px;
+  letter-spacing: 0.15em;
+  color: grey;
+  text-align: center;
+}
+
+.react-typewriter-text {
+  text-align: center !important;
+}
+
+.margins {
+  margin: 0 40px 0 40px;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 0;
+  animation: beat 0.35s infinite alternate;
+  transform-origin: center;
+  margin-bottom: 50px;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.meImage {
+  height: 25%;
+  top: 50%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  // &:visited {
+  // }
+  &:hover {
+    color: pink;
+  }
+}
+
+.backButton {
+  font-size: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  text-align: center;
+  margin-top: 5%;
+
+  @media (min-width: 1025px) {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+
+.center {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  display: inline-block;
+}
