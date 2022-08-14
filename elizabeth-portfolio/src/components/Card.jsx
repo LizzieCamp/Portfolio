@@ -9,6 +9,10 @@ const Card = (props) => {
       </div>
       <h3>{props.subTitle}</h3>
       <p>{props.content}</p>
+      <h3>{props.subTitle1}</h3>
+      <p>{props.content1}</p>
+      <h3>{props.subTitle2}</h3>
+      <p>{props.content2}</p>
       {/* eventually this image will be the imageIcon component */}
       <a href={props.imageLink}>
         <img height="50px" href={props.imgSrc} alt={props.altText}></img>
