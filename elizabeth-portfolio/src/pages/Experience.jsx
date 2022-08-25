@@ -7,10 +7,10 @@ const experience = [{
   title: "Elsevier",
   subTitle: "Software Engineer III",
   content: "i am se3",
-  subTitle1: "Software En gineer II",
-  content1: "i am se2",
-  subTitle2: "Technology Associate",
-  content2: "i am ta"
+  subtitleTwo: "Software Engineer II",
+  additionalContent: "i am se2",
+  subtitleThree: "Technology Associate",
+  extraContent: "i am ta"
 }];
 
 
@@ -20,7 +20,7 @@ const Experience = () => {
     <div className="margins">
       <Back />
       <h1> Experience </h1>
-      <div className="padding">
+      <div className="content">
         {experience.map((job, subTitle) => (
           <Card key={subTitle} index={subTitle} {...job} />
         ))}
