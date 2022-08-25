@@ -5,8 +5,10 @@
 }
 
 body {
-  background-color: #ebedef;
-  font-family: monospace;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: #b84c65;
+
 }
 
 // * {
@@ -17,10 +19,30 @@ body {
 // }
 
 h1 {
-  font-size: 24px;
+  font-size: 36px;
   letter-spacing: 0.15em;
-  color: grey;
-  text-align: center;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
 }
 
 .react-typewriter-text {
@@ -46,11 +68,12 @@ h1 {
 }
 
 .meImage {
-  height: 25%;
+  padding-top: 25px;
+  height: 30%;
   top: 50%;
   position: fixed;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  // left: 40%;
+  // transform: translate(-50%, -50%);
 }
 
 a {
