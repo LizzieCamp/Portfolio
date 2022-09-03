@@ -17,8 +17,7 @@ const experience = [{
 
 const Experience = () => {
   return (
-    <div className="margins">
-      <Back />
+    <div className="experience margins">
       <h1> Experience </h1>
       <div className="content">
         {experience.map((job, subTitle) => (
