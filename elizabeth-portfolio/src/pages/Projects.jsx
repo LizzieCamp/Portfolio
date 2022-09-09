@@ -3,9 +3,11 @@ import "../Styles/styles";
 import Back from "../components/BackButton";
 import Card from "../components/Card";
 
+
 const projects = [{
-  title: "title of cool project",
-  content: "this cool project be cool"
+  title: "Title of cool project",
+  content: "This cool project be cool",
+  image: "AvatarMaker.png"
 },
 {
   title: "wow another one",
@@ -18,12 +20,11 @@ const projects = [{
 
 const Projects = () => {
   return (
-    <div className="margins">
-      <Back />
+    <div className="projects margins">
       <h1> Projects </h1>
       <div className="content">
         {projects.map((project, title) => (
-          <Card key={title} index={title} {...project} />
+          <Card  key={title} index={title} {...project} />
         ))}
       </div>
     </div>

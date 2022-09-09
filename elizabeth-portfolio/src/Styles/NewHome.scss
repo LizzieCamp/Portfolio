@@ -36,8 +36,8 @@
   margin: 0;
   padding-top: 35%;
 
-  @media only screen and (min-width: 1044px) {
-    padding-top: 10%;
+  @media only screen and (min-width: 1024px) {
+    padding-top: 150px;
   }
 }
 
@@ -53,7 +53,7 @@
   z-index: 10;
   transition: 0.8s all ease;
 
-  @media only screen and (min-width: 1440px) {
+  @media only screen and (min-width: 1024px) {
     transition-property: none;
     
   }
@@ -90,7 +90,7 @@
   font-size: 1.8rem;
   cursor: pointer;
 
-  @media screen and (min-width: 1044px) {
+  @media screen and (min-width: 1024px) {
     display: none;
   }
 }
@@ -98,7 +98,7 @@
 .navMenu {
   display: none;
 
-  @media screen and (min-width: 1044px) {
+  @media screen and (min-width: 1024px) {
     display: flex;
     align-items: center;
     list-style: none;
@@ -139,7 +139,7 @@
   left: 0;
   transition: 0.3s ease-in-out;
 
-  @media only screen and (min-width: 1044px) {
+  @media only screen and (min-width: 1024px) {
     display: none;
   }
 }
@@ -187,4 +187,6 @@
 
 .home {
   min-height: calc(100vh - 50px);
+  margin-left: 10px;
+  margin-right: 10px;
 }

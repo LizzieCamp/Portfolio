@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const NewHome = ({ toggle }) => {
   return (
-    <div className="home margins">
+    <div >
       {/* <nav>
         {(toggleMenu || screenWidth > 500) && (
           <ul className="list">
@@ -21,7 +21,7 @@ const NewHome = ({ toggle }) => {
       <div className="nav">
         <div className="navContainer">
           <div className="navLogo">LOGO</div>
-          <div class="burgerMenu" onClick={toggle}>
+          <div className="burgerMenu" onClick={toggle}>
             <FaBars />
           </div>
           <ul className="navMenu">
@@ -48,7 +48,7 @@ const NewHome = ({ toggle }) => {
           Hello.
           <br />
           Im Elizabeth.
-          <br />A frontend Software Engineer
+          <br />A frontend Software Engineer.
         </h2>
         <img
           className="animated animatedFadeInUp delayed fadeInUp meImage"

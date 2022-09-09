@@ -14,7 +14,6 @@ const SideBar = ({ isOpen, toggle }) => {
   return (
     <div
       className="sideBar"
-      isOpen={isOpen}
       onClick={toggle}
       style={customStyle}
     >

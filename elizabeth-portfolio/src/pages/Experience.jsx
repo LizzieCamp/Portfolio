@@ -3,17 +3,36 @@ import "../Styles/styles";
 import Back from "../components/BackButton";
 import Card from "../components/Card";
 
-const experience = [{
-  title: "Elsevier",
-  subTitle: "Software Engineer III",
-  content: "i am se3",
-  subtitleTwo: "Software Engineer II",
-  additionalContent: "i am se2",
-  subtitleThree: "Technology Associate",
-  extraContent: "i am ta"
-}];
-
-
+const experience = [
+  {
+    title: "Elsevier",
+    subTitle: "Software Engineer III",
+    content: "i am se3",
+    subtitleTwo: "Software Engineer II",
+    additionalContent: "i am se2",
+    subtitleThree: "Technology Associate",
+    extraContent:
+      "i am tai am tai am ti am tai am tai am tai am tai am tai am tai am t i am tai am tai am tai am tai am tai am tai am tai am tai am tai am taai am ta",
+  },
+  {
+    title: "Elsevier",
+    subTitle: "Software Engineer III",
+    content: "i am se3",
+    subtitleTwo: "Software Engineer II",
+    additionalContent: "i am se2",
+    subtitleThree: "Technology Associate",
+    extraContent: "i am ta",
+  },
+  {
+    title: "Elsevier",
+    subTitle: "Software Engineer III",
+    content: "i am se3",
+    subtitleTwo: "Software Engineer II",
+    additionalContent: "i am se2",
+    subtitleThree: "Technology Associate",
+    extraContent: "i am ta",
+  },
+];
 
 const Experience = () => {
   return (
