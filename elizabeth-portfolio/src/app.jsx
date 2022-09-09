@@ -20,7 +20,8 @@ const App = () => {
   return (
     <div>
       <SideBar isOpen={isOpen} toggle={toggle} />
-      <NewHome isOpen={isOpen} toggle={toggle} />
+      <NewHome toggle={toggle} />
+      <Projects />
       <Experience />
     </div>
     // <Router>
