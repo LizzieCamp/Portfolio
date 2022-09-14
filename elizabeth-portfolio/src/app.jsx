@@ -21,6 +21,7 @@ const App = () => {
     <div>
       <SideBar isOpen={isOpen} toggle={toggle} />
       <NewHome toggle={toggle} />
+      <About />
       <Projects />
       <Experience />
     </div>

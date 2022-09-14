@@ -1,13 +1,19 @@
 import React from "react";
 import "../Styles/styles";
-import Back from "../components/BackButton";
 
 const About = () => {
   return (
-    <div className="margins">
-      <Back/>
-      <div className="padding">
-      <h1> ABOUT </h1>
+    <div className="about margins">
+      <h1> About </h1>
+      <div className="content aboutPage">
+      <p className="aboutText">
+      text here woop text here woop text here woop text here woop text here woop text here woop text here woop text here woop text here woop 
+      </p>
+      <img
+          className="aboutImage"
+          src="AvatarMaker.png"
+          alt="elizabeth camp"
+        />
       </div>
     </div>
   );

@@ -1,0 +1,33 @@
+.about {
+  min-height: 100vh;
+}
+
+.aboutImage {
+  width: 60%;
+  padding-top: 50px;
+
+  @media only screen and (min-width: 1024px) {
+    width: 250px;
+    padding-top: 0;
+  }
+}
+
+.aboutPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media only screen and (min-width: 1024px) {
+    flex-direction: row;
+  }
+}
+
+.aboutText {
+
+  @media only screen and (min-width: 1024px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30vw;
+  }
+}
