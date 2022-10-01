@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../Styles/styles";
-import Back from "../components/BackButton";
+import Form from "../components/Form";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const resolution = window.innerWidth;
+
+  const isDesktop = resolution >= 1024;
+
   return (
     <div className="margins">
-      <Back/>
-      <div className="padding">
       <h1> Contact </h1>
+      <div className="content">
+        <Form />
+        {isDesktop ? <Form /> : undefined}
       </div>
     </div>
   );
