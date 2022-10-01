@@ -24,6 +24,7 @@ const App = () => {
       <About />
       <Projects />
       <Experience />
+      <Contact />
     </div>
     // <Router>
     //   <Routes>

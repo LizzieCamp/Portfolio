@@ -10,7 +10,7 @@ const Card = (props) => {
       animateIn="animate__animated animate__zoomIn animate__slower"
       animateOnce="true"
     >
-      <div className="card">
+      <div className={`${props.class} card`}>
         <div>
           <h4>{props.title}</h4>
         </div>
@@ -38,9 +38,3 @@ const Card = (props) => {
 };
 
 export default Card;
-
-{
-  /* <AnimationOnScroll animateIn="animate__bounceIn">
-  <h2>Some Text</h2>
-</AnimationOnScroll>; */
-}
