@@ -1,3 +1,6 @@
+$navHeight: 50px;
+
+
 @keyframes fadeInUp {
   from {
     transform: translate3d(0, 40px, 0);
@@ -34,24 +37,26 @@
 
 .introText {
   margin: 0;
-  padding-top: 35%;
+  padding-top: calc(35% + $navHeight);
 
   @media only screen and (min-width: 1024px) {
-    padding-top: 150px;
+    padding-top: calc(150px + $navHeight);
   }
 }
 
 .nav {
-  height: 50px;
+  height: $navHeight;
   // margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 10;
   transition: 0.8s all ease;
+  width: 100vw;
+  background-color: white;
 
   @media only screen and (min-width: 1024px) {
     transition-property: none;
@@ -65,8 +70,6 @@
   height: 50px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
-  max-width: 1100px;
 }
 
 .navLogo {
@@ -82,6 +85,7 @@
 
 .burgerMenu {
   display: flex;
+  margin-right: 24px;
   /* position: fixed; */
   align-items: center;
   /* top: 0; */
@@ -124,6 +128,7 @@
   }
   &:hover {
     border-bottom: 3px solid #fcc0c5;
+    padding-bottom: 15px;
   }
 }
 
@@ -189,4 +194,8 @@
   min-height: calc(100vh - 50px);
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.page {
+  min-height: calc(100vh - $navHeight);
 }

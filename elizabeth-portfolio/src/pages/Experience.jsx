@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/styles";
-import Back from "../components/BackButton";
 import Card from "../components/Card";
 
 const experience = [
@@ -36,7 +35,7 @@ const experience = [
 
 const Experience = () => {
   return (
-    <div className="experience margins">
+    <div className="page margins">
       <h1> Experience </h1>
       <div className="content">
         {experience.map((job, subTitle) => (

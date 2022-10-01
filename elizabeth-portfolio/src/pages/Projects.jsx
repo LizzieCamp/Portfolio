@@ -20,7 +20,7 @@ const projects = [{
 
 const Projects = () => {
   return (
-    <div className="projects margins">
+    <div className="page margins">
       <h1> Projects </h1>
       <div className="content">
         {projects.map((project, title) => (
