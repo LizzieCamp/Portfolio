@@ -4,9 +4,14 @@
   align-items: center;
 }
 
+* {
+  font-family: 'Arima Madurai', cursive;
+}
+
 body {
   // font-family: "Courier New", Courier, monospace;
-  font-family: 'Cutive Mono', monospace;
+  // font-family: 'Quicksand', sans-serif;
+  font-family: 'Arima Madurai', cursive;
   text-align: center;
   color: #b84c65;
   margin: 0;
@@ -93,6 +98,7 @@ p {
 
 a {
   text-decoration: none;
+  
 
   // &:visited {
   // }
