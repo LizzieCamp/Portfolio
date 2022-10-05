@@ -12,9 +12,6 @@ const About = () => {
     <div className="page margins">
       <h1> About </h1>
       <div className="content aboutPage">
-      {/* <p className="aboutText">
-      text here woop text here woop text here woop text here woop text here woop text here woop text here woop text here woop text here woop 
-      </p> */}
       {aboutInfo.map((about, title) => (
       <Card class="About" key={title} index={title} {...about}/>
       ))}
