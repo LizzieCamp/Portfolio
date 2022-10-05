@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/styles";
-import Back from "../components/BackButton";
 import Card from "../components/Card";
 
 
