@@ -6,7 +6,10 @@ import Card from "../components/Card";
 const projects = [{
   title: "Title of cool project",
   content: "This cool project be cool",
-  image: "AvatarMaker.png"
+  image: "AvatarMaker.png",
+  imageLink: "www.google.com",
+  imgSrc: "AvatarMaker.png",
+  linkAltText: "some alt text here"
 },
 {
   title: "wow another one",
@@ -19,7 +22,7 @@ const projects = [{
 
 const Projects = () => {
   return (
-    <div className="page margins">
+    <div id="Projects" className="page margins">
       <h1> Projects </h1>
       <div className="content">
         {projects.map((project, title) => (
