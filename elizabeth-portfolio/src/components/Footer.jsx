@@ -1,16 +1,24 @@
 import React from "react";
 import "../Styles/styles";
+import Image from "./Image";
+import ImageLink from "./ImageLink";
 
 export default () => {
   return (
     <div className="footer">
-      <a href="https://www.linkedin.com/in/elizabeth-camp-0366b8165/">
-        <img className="logo" src="linkedin.png" alt="elizabeth camp" />
-      </a>
+      <ImageLink
+        href="https://www.linkedin.com/in/elizabeth-camp-0366b8165/"
+        class="logo"
+        src="linkedin.png"
+        altText="Linkedin"
+      />
       <p> Copyright message</p>
-      <a href="https://github.com/LizzieCamp">
-        <img className="logo" src="github.png" alt="elizabeth camp" />
-      </a>
+      <ImageLink
+        href="https://github.com/LizzieCamp"
+        class="logo"
+        src="github.png"
+        altText="Github"
+      />
     </div>
   );
 };
