@@ -2,6 +2,8 @@ import React from "react";
 import "../Styles/styles";
 import "animate.css/animate.min.css";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import Image from "./Image";
+import ImageLink from "./ImageLink";
 
 const Card = (props) => {
   return (
@@ -14,7 +16,7 @@ const Card = (props) => {
           <h4>{props.title}</h4>
         </div>
         {props.image && (
-          <img className="image" src={props.image} alt="elizabeth camp" />
+          <Image class="image" src={props.image} altText={props.altText} />
         )}
         <h5>{props.subTitle}</h5>
         <p>{props.content}</p>
@@ -22,10 +24,12 @@ const Card = (props) => {
         {props.additionalContent ? <p>{props.additionalContent}</p> : null}
         {props.subtitleThree ? <h5>{props.subtitleThree}</h5> : null}
         {props.extraContent ? <p>{props.extraContent}</p> : null}
-
-        <a href={props.imageLink}>
-          <img height="50px" href={props.imgSrc} alt={props.altText}></img>
-        </a>
+        <ImageLink
+          href={props.imageLink}
+          class="cardLinkImage"
+          src={props.imgSrc}
+          altText={props.linkAltText}
+        />
       </div>
     </AnimationOnScroll>
   );
