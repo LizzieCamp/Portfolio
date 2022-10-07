@@ -1,7 +1,3 @@
-.about {
-  min-height: 100vh;
-}
-
 .aboutImage {
   width: 60%;
   padding-top: 50px;
@@ -23,9 +19,7 @@
 }
 
 .aboutText {
-
   @media only screen and (min-width: 1024px) {
-    display: flex;
     justify-content: center;
     align-items: center;
     max-width: 30vw;

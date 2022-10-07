@@ -12,7 +12,7 @@
     margin-bottom: 60px;
     // height: 800px
     width: 400px;
-    height: 500px;
+    height: 100%;
   }
 
   & p {
@@ -28,4 +28,8 @@
     padding-top: 10%;
     width: 100px;
   }
+}
+
+.cardLinkImage {
+  height: 50px;
 }
