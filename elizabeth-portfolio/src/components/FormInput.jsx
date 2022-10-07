@@ -4,7 +4,7 @@ import "../Styles/styles";
 export default (props) => {
   return (
     <input
-    // name={props.name}
+    name={props.name}
       type={props.type}
       className="inputText"
       placeholder={props.placeholder}

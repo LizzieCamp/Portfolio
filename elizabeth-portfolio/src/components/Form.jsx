@@ -3,11 +3,11 @@ import "../Styles/styles";
 import Button from "./Button";
 import FormInput from "./FormInput";
 import emailjs from "@emailjs/browser";
-import Success from "./Success";
+import Success from "./FormSuccess";
 
-const Form = (props) => {
+const Form = () => {
   const form = useRef();
-  const [submit, setSubmit] = useState(true);
+  const [submit, setSubmit] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
