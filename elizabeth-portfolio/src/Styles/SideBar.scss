@@ -1,0 +1,56 @@
+.sideBar {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background: #fcc0c5;
+  display: grid;
+  align-items: center;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease-in-out;
+
+  @media only screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.closeIcon {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.5rem;
+  background: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.sideBarWrapper {
+  color: #fff;
+}
+
+.sideBarMenu {
+  text-align: center;
+  padding: 0;
+}
+
+.sideBarLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  padding-bottom: 20px;
+
+  &:hover {
+    color: #01bf71;
+    transition: 0.2s ease-in-out;
+  }
+
+  a {
+    color: #f85c70;
+  }
+}
