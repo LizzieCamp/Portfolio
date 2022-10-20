@@ -22,7 +22,7 @@ const Home = () => {
         <Image
           class="animated animatedFadeInUp delayed fadeInUp meImage"
           src="AvatarMaker.png"
-          altText="Elizabeth Camp"
+          altText="Cartoon of a girl with ginger hair which is resting on her left shoulder, wearing a black turtleneck jumper."
         />
       </div>
     </div>

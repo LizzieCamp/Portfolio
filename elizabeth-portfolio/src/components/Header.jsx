@@ -11,21 +11,26 @@ export default ({ toggle }, props) => {
       href: "#About",
       linkClass: "navLink",
       label: "About",
+      ariaLabel: "Navigate to the about section"
+
     },
     {
       href: "#Projects",
       linkClass: "navLink",
       label: "Projects",
+      ariaLabel: "Navigate to the projects section"
     },
     {
       href: "#Experience",
       linkClass: "navLink",
       label: "Experience",
+      ariaLabel: "Navigate to the experience section"
     },
     {
       href: "#Contact",
       linkClass: "navLink",
       label: "Contact",
+      ariaLabel: "Navigate to the contact section"
     },
     {
       href: PDF,
@@ -33,6 +38,7 @@ export default ({ toggle }, props) => {
       label: "CV",
       target: "_blank",
       rel: "noreferrer",
+      ariaLabel: "Download my CV"
     },
   ];
 
@@ -40,8 +46,9 @@ export default ({ toggle }, props) => {
     <div className="nav">
       <div className="navContainer">
         <ImageLink
+        ariaLabel="Back to the home screen"
           href="#home"
-          src="AvatarMaker.png"
+          src="logo1.png"
           altText="Elizabeth Camp Portfolio"
           class="navLogo"
         />

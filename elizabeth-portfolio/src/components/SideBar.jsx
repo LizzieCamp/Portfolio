@@ -18,21 +18,25 @@ const SideBar = ({ isOpen, toggle }) => {
       itemClass: "sideBarLink",
       href: "#About",
       label: "About",
+      ariaLabel: "Navigate to the about section"
     },
     {
       itemClass: "sideBarLink",
       href: "#Projects",
       label: "Projects",
+      ariaLabel: "Navigate to the projects section"
     },
     {
       itemClass: "sideBarLink",
       href: "#Experience",
       label: "Experience",
+      ariaLabel: "Navigate to the experience section"
     },
     {
       itemClass: "sideBarLink",
       href: "#Contact",
       label: "Contact",
+      ariaLabel: "Navigate to the contact section"
     },
     {
       itemClass: "sideBarLink",
@@ -40,6 +44,7 @@ const SideBar = ({ isOpen, toggle }) => {
       label: "CV",
       target: "_blank",
       rel: "noreferrer",
+      ariaLabel: "Dowload my CV"
     },
   ];
 

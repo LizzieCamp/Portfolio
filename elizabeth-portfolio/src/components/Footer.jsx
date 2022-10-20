@@ -1,12 +1,12 @@
 import React from "react";
 import "../Styles/styles";
-import Image from "./Image";
 import ImageLink from "./ImageLink";
 
 export default () => {
   return (
     <div className="footer">
       <ImageLink
+      ariaLabel="Visit my linkedin profile"
         href="https://www.linkedin.com/in/elizabeth-camp-0366b8165/"
         class="logo"
         src="linkedin.png"
@@ -14,6 +14,7 @@ export default () => {
       />
       <p> Copyright message</p>
       <ImageLink
+      ariaLabel="Visit my github"
         href="https://github.com/LizzieCamp"
         class="logo"
         src="github.png"

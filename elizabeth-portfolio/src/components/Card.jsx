@@ -25,6 +25,7 @@ const Card = (props) => {
         {props.subtitleThree ? <h5>{props.subtitleThree}</h5> : null}
         {props.extraContent ? <p>{props.extraContent}</p> : null}
         <ImageLink
+        ariaLabel={props.ariaLabel}
           href={props.imageLink}
           class="cardLinkImage"
           src={props.imgSrc}
