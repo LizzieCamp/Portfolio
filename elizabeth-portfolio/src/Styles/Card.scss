@@ -4,19 +4,22 @@
   min-height: 400px;
   overflow-wrap: break-word;
   margin: 0 5%;
+
   margin-bottom: 20%;
   padding: 0 25px;
 
-  @media (min-width:1024px) { 
+  @media (min-width: 1024px) {
     // width: 35%;
     margin-bottom: 60px;
     // height: 800px
     width: 400px;
-    height: 100%;
+  }
+  @media (min-width: 1440px) {
+    width: 450px;
   }
 
   & p {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
   & h4 {
@@ -31,5 +34,11 @@
 }
 
 .cardLinkImage {
-  height: 50px;
+  height: 35px;
+}
+
+.projects {
+  @media (min-width: 1024px) {
+    height: 460px;
+  }
 }
