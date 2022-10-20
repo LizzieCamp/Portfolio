@@ -10,24 +10,12 @@
 }
 
 body {
-  // font-family: "Courier New", Courier, monospace;
-  // font-family: 'Quicksand', sans-serif;
-  // font-family: 'Arima Madurai', cursive;
   font-family: 'Lora', serif;
   text-align: center;
   color: #af042c;
   margin: 0;
-  
-  // font-weight: 200;
 
 }
-
-// * {
-//   font-size: 44px;
-//   letter-spacing: 0.15em;
-//   font-family: monospace;
-//   color: grey;
-// }
 
 h1 {
   font-size: 36px;
@@ -73,9 +61,6 @@ p {
 
 .scroll {
   position: absolute;
-  // animation: beat 0.35s infinite alternate;
-  // transform-origin: center;
-  // margin-bottom: 50px;
   bottom: 0;
 }
 
@@ -86,13 +71,8 @@ p {
 }
 
 .meImage {
-  // padding-top: 25px;
-  // height: 30%;
-  // top: 50%;
   position: relative;
   width: 40%;
-  // left: 40%;
-  // transform: translate(-50%, -50%);
 
   @media only screen and (min-width: 1024px){
     width: 20%;
@@ -102,10 +82,7 @@ p {
 a {
   text-decoration: none;
   color: #af042c;
-  
 
-  // &:visited {
-  // }
 }
 
 .backButton {
@@ -120,8 +97,6 @@ a {
 
   @media (min-width: 1024px) {
     margin-top: 150px;
-    // margin-left: 200px;
-    // margin-right: 200px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

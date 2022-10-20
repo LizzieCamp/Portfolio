@@ -5,9 +5,7 @@
   margin: 0 5%;
 
   @media only screen and (min-width: 1024px) {
-    // width: 35%;
     margin-bottom: 60px;
-    // height: 800px
     height: 400px;
     width: 500px;
     margin-left: 0;
@@ -16,9 +14,8 @@
 }
 
 ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #b84c65;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
 .checkMark {

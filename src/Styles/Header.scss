@@ -2,7 +2,6 @@
 
 .nav {
   height: $navHeight;
-  // margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,11 +46,7 @@
 .burgerMenu {
   display: flex;
   margin-right: 24px;
-  /* position: fixed; */
   align-items: center;
-  /* top: 0; */
-  /* right: 0; */
-  /* transform: translate(-100%, 60%); */
   font-size: 1.8rem;
   cursor: pointer;
 
@@ -76,7 +71,6 @@
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  // height: 100%;
   cursor: pointer;
 
   &:visited {

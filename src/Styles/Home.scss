@@ -6,7 +6,6 @@
   }
 
   to {
-    // transform: translate3d(0,0,0);
     opacity: 1;
   }
 }
@@ -30,10 +29,6 @@
   animation-name: fadeInUp;
 }
 
-//hover background-color: #f85c70;
-// background background: #fcc0c5;
-//  color: #b84c65;
-
 .introText {
   margin: 0;
   padding-top: calc(35% + $navHeight);
@@ -42,8 +37,6 @@
     padding-top: calc(150px + $navHeight);
   }
 }
-
-
 
 .home {
   min-height: calc(100vh - 50px);
