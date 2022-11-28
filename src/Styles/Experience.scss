@@ -1,0 +1,12 @@
+.experience {
+  background-color: #f6e5f5;
+  padding-bottom: 25px;
+}
+
+.Experience {
+  background-color: #fff;
+  @media only screen and (min-width: 1024px) {
+    margin: 0;
+    height: 650px;
+  }
+}

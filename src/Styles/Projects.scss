@@ -1,0 +1,13 @@
+.projects {
+
+    & .image {
+        width: 350px;
+        border-radius: 25px;
+        margin-top: 5%;
+        height: fit-content;
+        padding: 0;
+    }
+    @media (min-width: 1024px) {
+      height: 650px;
+    }
+  }

@@ -1,5 +1,5 @@
 .card {
-  background-color: pink;
+  background-color: #f6e5f5;
   border-radius: 25px;
   min-height: 400px;
   overflow-wrap: break-word;
@@ -27,7 +27,7 @@
 
   & .image {
     padding-top: 10%;
-    width: 100px;
+    height: 125px;
   }
 }
 
@@ -35,8 +35,23 @@
   height: 35px;
 }
 
-.projects {
-  @media (min-width: 1024px) {
-    height: 460px;
+
+
+.contactImage {
+  padding-top: 0;
+
+  & h4 {
+    padding: 0;
   }
+  & .cardLinkImage {
+    width: 250px;
+    height: 250px;
+    margin-top: 10%;
+    border-radius: 25px;
+
+    @media (min-width: 1024px) {
+      height: auto;
+    }
+  }
+  background: none;
 }
