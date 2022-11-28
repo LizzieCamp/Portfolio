@@ -3,29 +3,29 @@ import "../Styles/styles";
 import Card from "../components/Card";
 
 const projects = [{
-  title: "Movies API: 'to watch list'",
+  title: "Movies API: 'to watch list' - TBD",
   content: "This project uses a Movie API (OMDb API) which allows users to create their own 'watch list'. A to do list style app where users add films to their 'to watch' list and can check them off - moving the film to their 'watched' list.",
   image: "placeholder-image.png",
   // altText:
   additionalContent: "React · Movie API · ",
-  imageLink: "https://github.com/LizzieCamp",
+  imageLink: "https://github.com/LizzieCamp/MovieAPI",
   ariaLabel: "Go to the movie api projects github repository",
   imgSrc: "github.png",
   linkAltText: "Github"
 
 },
 {
-  title: "Fight Club",
+  title: "Fight Club - WIP",
   content: "A CLI based fight simulator.",
   image: "placeholder-image.png",
   additionalContent: "Typescript",
-  imageLink: "https://github.com/LizzieCamp",
+  imageLink: "https://github.com/LizzieCamp/fight-club",
   ariaLabel: "Go to the fight club projects github repository",
   imgSrc: "github.png",
   linkAltText: "Github"
 },
 {
-  title: "Blog site",
+  title: "Blog site - TBD",
   content: "A blog site where users can create, edit and delete their own blog posts.",
   additionalContent: "React · Sass/Scss · MongoDB",
   image: "placeholder-image.png",
@@ -35,8 +35,8 @@ const projects = [{
   linkAltText: "Github"
 },
 {
-  title: "Weather Reporter",
-  content: "A simple weather reporting app which can: ",
+  title: "Weather Reporter - TBD",
+  content: "A simple weather reporting app.",
   additionalContent: "React · GraphQL · Weather API",
   image: "placeholder-image.png",
   imageLink: "https://github.com/LizzieCamp",
