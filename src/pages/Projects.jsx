@@ -18,7 +18,7 @@ const projects = [
   {
     title: "The Watch List",
     content:
-      "This project uses a Movie API (OMDb API) which allows users to create their own 'watch list'. A to do list style app where users add films to their 'to watch' list and can check them off - moving the film to their 'watched' list.",
+      "A to do list style app where users add films to their 'to watch' list and can check them off, moving the film to their 'watched' list.",
     image:
       "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     // altText:
@@ -30,7 +30,7 @@ const projects = [
     linkAltText: "Github",
   },
   {
-    title: "Blog site",
+    title: "Captains blog",
     content:
       "A blog site where users can create, edit and delete their own blog posts.",
     additionalContent: "React · Sass/Scss · MongoDB",
@@ -43,7 +43,7 @@ const projects = [
     linkAltText: "Github",
   },
   {
-    title: "Weather Reporter",
+    title: "Weather Man",
     content: "A simple weather reporting app.",
     additionalContent: "React · GraphQL · Weather API",
     image:

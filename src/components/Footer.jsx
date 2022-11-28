@@ -12,7 +12,7 @@ export default () => {
         src="linkedin.png"
         altText="Linkedin"
       />
-      <p> Copyright message</p>
+      <p> Copyright © Elizabeth Camp 2022 </p>
       <ImageLink
       ariaLabel="Visit my github"
         href="https://github.com/LizzieCamp"
