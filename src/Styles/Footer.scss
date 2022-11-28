@@ -1,6 +1,6 @@
 .footer {
   margin-top: 50px;
-  background-color: pink;
+  background-color: #f6e5f5;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -8,8 +8,8 @@
   padding-right: 10%;
 
   @media only screen and (min-width: 1024px) {
-    padding-left: 40%;
-    padding-right: 40%;
+    padding-left: 30%;
+    padding-right: 30%;
   }
 }
 
