@@ -12,18 +12,20 @@ const Card = (props) => {
       animateOnce="true"
     >
       <div className={`${props.class} card`}>
-        <div>
-          <h4>{props.title}</h4>
-        </div>
         {props.image && (
           <Image class="image" src={props.image} altText={props.altText} />
         )}
+        <div>
+          <h4>{props.title}</h4>
+        </div>
         <h5>{props.subTitle}</h5>
         <p>{props.content}</p>
+      
         {props.subtitleTwo ? <h5>{props.subtitleTwo}</h5> : null}
         {props.additionalContent ? <p>{props.additionalContent}</p> : null}
         {props.subtitleThree ? <h5>{props.subtitleThree}</h5> : null}
         {props.extraContent ? <p>{props.extraContent}</p> : null}
+        {props.status ? <p>Status: {props.status}</p> : null}
         <ImageLink
         ariaLabel={props.ariaLabel}
           href={props.imageLink}

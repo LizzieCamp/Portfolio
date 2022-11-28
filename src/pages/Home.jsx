@@ -5,7 +5,7 @@ import "../Styles/styles";
 const Home = () => {
   const titles = [
     { id: 1, title: "Hello." },
-    { id: 2, title: "Im Elizabeth." },
+    { id: 2, title: "I'm Elizabeth." },
     { id: 3, title: "A frontend Software Engineer." },
   ];
 
@@ -30,3 +30,5 @@ const Home = () => {
 };
 
 export default Home;
+
+
