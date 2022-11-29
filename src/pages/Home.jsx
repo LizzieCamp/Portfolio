@@ -6,7 +6,7 @@ const Home = () => {
   const titles = [
     { id: 1, title: "Hello." },
     { id: 2, title: "I'm Elizabeth." },
-    { id: 3, title: "A frontend Software Engineer." },
+    { id: 3, title: "A Frontend Software Engineer." },
   ];
 
   return (
