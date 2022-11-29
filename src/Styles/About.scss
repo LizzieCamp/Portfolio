@@ -1,7 +1,7 @@
 .aboutImage {
   width: 60%;
-  // padding-top: 50px;
   border-radius: 25px;
+  box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 51%);
 
   @media only screen and (min-width: 1024px) {
     width: 250px;
