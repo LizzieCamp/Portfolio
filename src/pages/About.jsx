@@ -7,7 +7,7 @@ const aboutInfo = [
   {
     title: "Hello 👋🏻 ",
     content:
-      "Im Elizabeth, a frontend software Engineer, currently working for Elsevier.",
+      "Im Elizabeth, a Frontend Software Engineer, currently working for Elsevier.",
     additionalContent:
       "I first started dabbling with code in 2014 and I ended up enjoying it so much that in 2016 I went on to study Computer Science at University. I have now been working professionally as a Software Engineer for the past 3 years.",
     extraContent:
