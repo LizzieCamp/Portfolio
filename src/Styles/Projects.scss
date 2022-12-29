@@ -1,15 +1,98 @@
-.projects {
-  
+h2,
+p {
+  margin: 0;
+  padding-top: 10px;
+}
 
-  & .image {
-    
-    border-radius: 25px;
-    margin-top: 5%;
-    width: 275px;
-  height: fit-content;
-    padding: 0;
+.container {
+  height: 50vh;
+  margin: 10%;
+  background-color: black;
+  background-size: cover;
+  cursor: pointer;
+  box-shadow: 0 0 5px #000;
+  color: black;
+  @media (min-width: 1024px) {
+    width: 450px;
+    height: 550px;
+    margin: 0 0 50px 5px;
+  }
+}
+
+.overlay {
+  opacity: 0.75;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  background-color: #f6e5f5;
+  transition: all 0.5s;
+  text-align: left;
+
+  @media (min-width: 1024px) {
+    opacity: 0;
+  }
+}
+
+.items {
+  padding-left: 20px;
+  letter-spacing: 2px;
+}
+
+.heading {
+  font-size: 30px;
+  padding-right: 50px;
+  transform: translateY(40px);
+  transition: all 0.7s;
+
+  hr {
+    display: block;
+    width: 0;
+
+    border: none;
+    border-bottom: solid 2px black;
+
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+
+    transition: all 0.5s;
   }
   @media (min-width: 1024px) {
-   //  width: 350px;
+    opacity: 1;
+    padding-top: 10%;
+  }
+}
+
+.projectContent {
+  line-height: 10px;
+  font-weight: bold;
+  opacity: 1;
+  transform: translateY(40px);
+  transition: all 0.7s;
+
+  @media (min-width: 1024px) {
+    padding-top: 40%;
+    font-size: 22px;
+  }
+}
+
+.container:hover .overlay {
+  @media (min-width: 1024px) {
+    opacity: 0.75;
+    & .heading {
+      transform: translateY(0px);
+    }
+
+    & hr {
+      width: 75px;
+      transition-delay: 0.4s;
+    }
+
+    & .projectContent {
+      transform: translateY(0px);
+      transition-delay: 0.3s;
+    }
   }
 }
